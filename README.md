@@ -84,27 +84,27 @@ How to use（直接clone项目查看demo更加直观哦）
 ```
 
 ```java
-	//此配置为顶部布局的背景颜色
-	app:top_background_color="#fff"
+//此配置为顶部布局的背景颜色
+app:top_background_color="#fff"
 ```
 二: 头部xml的配置
 ```java
-	//添加头部布局
- 	pullLoadMoreView.addHeadView(R.layout.top_layout);
+//添加头部布局
+pullLoadMoreView.addHeadView(R.layout.top_layout);
 ```
 三：可设置回调监听
 ```java
-  //添加监听滑动布局的open/close
-        pullLoadMoreView.setViewStateListener(new PullLoadMoreView.ViewStateListener() {
-            @Override
-            public void onViewState(PullLoadMoreView.VIewState viewState) {
-                if (viewState == PullLoadMoreView.VIewState.OPEN) {
-                    Toast.makeText(MainActivity.this, "Open", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(MainActivity.this, "Close", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+//添加监听滑动布局的open/close
+pullLoadMoreView.setViewStateListener(new PullLoadMoreView.ViewStateListener() {
+    @Override
+    public void onViewState(PullLoadMoreView.VIewState viewState) {
+        if (viewState == PullLoadMoreView.VIewState.OPEN) {
+            Toast.makeText(MainActivity.this, "Open", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(MainActivity.this, "Close", Toast.LENGTH_SHORT).show();
+        }
+    }
+ });
 ```
  
 # License
