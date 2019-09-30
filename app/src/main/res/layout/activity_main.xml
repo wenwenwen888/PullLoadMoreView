@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.wenwenwen.view.PullLoadMoreView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/pullLoadMoreView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:top_background_color="#fff"
-    tools:context="com.wenwenwen.demo.MainActivity">
+    app:top_background_color="#fff">
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/nestedScrollview"
