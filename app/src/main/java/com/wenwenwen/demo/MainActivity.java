@@ -1,10 +1,10 @@
-package com.kingcheergame.pullloadmoreview;
+package com.wenwenwen.demo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.kingcheergame.library.PullLoadMoreView;
+import com.wenwenwen.view.PullLoadMoreView;
 
 public class MainActivity extends AppCompatActivity {
 
